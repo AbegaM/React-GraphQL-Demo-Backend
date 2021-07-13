@@ -49,7 +49,13 @@
   ```
    npm run start:dev
   ```
+## setup the database
+    * Start your postgres database 
+    * Create your test database 
+    * Create a table called tests
+    * Create a column called test, in the tests table
 
+## Built with
 - [NodeJS](https://nodejs.org/en/)
 - [Apollo GraphQL](https://www.apollographql.com/)
 
