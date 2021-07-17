@@ -12,14 +12,12 @@ const typeDefs = gql`
 
  type Query {
    getTestData: [TestData] 
-   getSubscriptionData(input: TestDataInput): TestData
  }
 
  type Mutation {
    createTestData(input: TestDataInput): TestData 
+   getSubscriptionData(input: TestDataInput): TestData
  }
-
-
 `;
 
 module.exports = { typeDefs };

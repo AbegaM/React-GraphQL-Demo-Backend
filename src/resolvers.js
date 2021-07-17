@@ -28,10 +28,10 @@ const getSubscriptionData = (parent, { input }, ctx) => {
 module.exports = {
   Query: {
     getTestData,
-    getSubscriptionData,
   },
 
   Mutation: {
     createTestData,
+    getSubscriptionData,
   },
 };
